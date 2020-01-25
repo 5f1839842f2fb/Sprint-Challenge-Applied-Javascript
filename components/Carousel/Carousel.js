@@ -49,6 +49,7 @@ const carouselMaker = () => {
     }
     image.setAttribute('src', imageSrcObj[currentImageIndex])
   })
+
   rightButton.addEventListener('click', () => {
     if(currentImageIndex === 3) {
       currentImageIndex = 0;
